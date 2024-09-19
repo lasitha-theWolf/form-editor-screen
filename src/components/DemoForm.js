@@ -222,7 +222,7 @@ export default function DemoForm() {
                   <h1 className="text-5xl font-bold">{welcomeTitle}</h1>
                   <p className="text-gray-700 text-xl font-semibold mt-4">{welcomeDescription}</p>
                   <button className='mt-3 me-5'>
-                    <span className="bg-black text-white py-2 px-3 rounded-2xl">Start</span>
+                    <span className="bg-black text-white py-2 px-3 rounded-2xl">{buttonText}</span>
                     <span className="ml-2 text-sm">press Enter ⏎</span>
                   </button>
                 </div>
