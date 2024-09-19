@@ -14,13 +14,13 @@ const FormTextNameField = (props) => {
     const validateName = (value) => {
         const namePattern = /^[a-zA-Z\s]+$/;
         return namePattern.test(value);
-      };
-    
-      const handleNameChange = (e) => {
+    };
+
+    const handleNameChange = (e) => {
         const value = e.target.value;
         setName(value);
-        setIsValid(value === '' || validateName(value)); 
-      };
+        setIsValid(value === '' || validateName(value));
+    };
 
     const handleInputChangeTitle = (e) => {
         setTitle(e.target.value);

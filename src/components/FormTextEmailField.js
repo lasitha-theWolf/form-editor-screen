@@ -18,7 +18,7 @@ const FormTextEmailField = (props) => {
     const handleEmailChange = (e) => {
         const value = e.target.value;
         setEmail(value);
-        setIsValid(value === '' || validateEmail(value)); 
+        setIsValid(value === '' || validateEmail(value));
     };
 
     const handleInputChangeTitle = (e) => {

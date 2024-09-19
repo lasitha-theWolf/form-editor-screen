@@ -254,7 +254,7 @@ export default function DemoForm() {
 
         {/* FormTextNameField */}
         {isFormTextNameField && (
-          <FormTextNameField  handleCloseAll={handleCloseAll} />
+          <FormTextNameField handleCloseAll={handleCloseAll} />
         )}
 
         {/* FormTextEmailField */}
